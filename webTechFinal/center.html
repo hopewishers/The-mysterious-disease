@@ -1,0 +1,373 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Cancer centers</title>
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Orbitron" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="himages/fav.png" />
+	
+	<style media="screen">
+	
+	body {
+	font-family: tahoma,sans-serif,arial;
+	margin:0;
+
+}
+
+/* Heading_part */
+
+
+.header {
+	background: #f7f1e3;
+
+}
+
+.container {
+	width:95%;
+	min-height: 180px;
+	margin:auto;
+
+}
+
+.logo {
+	width:30%;
+	float:left;
+
+}
+
+.mainmenu {
+	width:70%;
+	float:right;
+	margin-top: 50px;
+	background: #1e272e;
+}
+
+.mainmenu:after {
+	content:' ';
+	display:block;
+	clear:both;
+
+
+}
+
+.mainmenu ul {
+	margin:0;
+	list-style:none;
+}
+
+.mainmenu > ul > li {
+	float:left;
+	position:relative;
+
+}
+
+.mainmenu ul li a {
+	text-decoration:none;
+	color:#FFFFFF;
+	padding: 10px 58px;
+	text-transform: capitalize;
+	display:block;
+
+}
+
+.mainmenu ul li:hover a {
+	background: linear-gradient(#ED1C24, #ff3f34);
+
+}
+
+
+.mainmenu ul .anything a {
+	background: #ED1C24;
+
+}
+
+/* SUB_MENU */
+
+.mainmenu ul ul {
+	padding-left:0;
+	position:absolute;
+	left:0;
+	top:100%;
+	min-width:150px;
+	display:none;
+	z-index:9999;
+
+
+}
+
+.mainmenu ul li:hover > ul {
+	display:block;
+
+}
+
+.mainmenu ul ul li:hover a {
+	background: #241F1C;
+
+}
+
+.mainmenu ul ul ul {
+	left:100%;
+	top:0;
+
+}
+
+.mainmenu ul ul li {
+	position: relative;
+
+}
+
+.mainmenu ul ul ul li:hover a {
+	background: linear-gradient(#ED1C24, #ff3f34);
+
+}
+
+/* Main-Part */
+
+.mainarea {
+	margin-top:50px;
+
+}
+
+.mainarea .container {
+	width:95%;
+	margin:auto;
+
+}
+
+.mainarea .intro .inimage img{
+	width:55%;
+	float:left;
+	margin-right:5%;
+
+}
+
+.mainarea .intro .intext {
+	width:40%;
+	overflow:hidden;
+
+}
+
+.cont h1{
+	font-family: 'Orbitron', sans-serif;
+	color: #ED1C24;
+	font-size: 40px;
+	margin-top:0;
+
+}
+
+
+.mainarea .whatcancer .whattext {
+	width:40%;
+	float:left;
+	margin-right:5%;
+
+}
+
+.mainarea .whatcancer .whatimage img{
+	width:55%;
+	overflow:hidden;
+
+}
+
+
+
+.whatcancer {
+	margin-top: 100px;
+
+}
+
+.typecancer {
+	margin-top: 280px;
+
+}
+
+.mainarea .typecancer .typeimage img{
+	width:55%;
+	float:left;
+	margin-right:5%;
+
+}
+
+.mainarea .typecancer .typetext {
+	width:40%;
+	overflow:hidden;
+
+}
+
+
+
+.whycancer {
+	margin-top: 100px;
+
+}
+
+.mainarea .whycancer .whytext {
+	width:50%;
+	float:left;
+	margin-right:5%;
+
+}
+
+.mainarea .whycancer .whyimage img{
+	width:45%;
+	overflow:hidden;
+
+}
+
+.mainarea .whycancer .whytext h1 {
+	line-height: 1em;
+
+}
+
+body{
+  background-image: url('himages/zak.jpg');
+
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1;
+  padding: 5px;
+  opacity: .8;
+
+
+}
+
+h2 {
+  font-family: arial;
+  font-size: 90%;
+}
+
+.cont{
+text-align: center;
+margin-top: 30px;
+
+}
+
+
+/* Footer-Area */
+
+.footer {
+	margin-top: 50px;
+	float:left;
+	background: #241F1C;
+	width:100%;
+	padding: 15px 0;
+	font-family: 'Abel', sans-serif;
+	color: #ED1C24;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+	
+	
+	</style>
+	
+</head>
+<body>
+
+		<div class="header">
+
+				<div class="container">
+						<div class="logo">
+								<img src="himages/logo.png" alt="logo" />
+						</div>
+
+						<nav class="mainmenu">
+								<ul>
+										<li><a href="home.html">home</a></li>
+										<li><a href="#">Cancer</a>
+												<ul class="submenu">
+														<li><a href="history.html">History</a></li>
+														<li class="anything"><a href="center.html">cancer center</a></li>
+														<li><a href="statistic.html">statistic</a></li>
+														<li><a href="#">fun facts</a>
+															<ul>
+																<li><a href="causes.html">causes</a></li>
+																<li><a href="factors.html">factors</a></li>
+															</ul>
+
+														</li>
+
+														<li><a href="#">Stages of cancer</a>
+															<ul>
+																<li><a href="stage.html">Stage 1-4</a></li>
+															</ul>
+														</li>
+												</ul>
+
+										</li>
+										<li><a href="faq.html">FAQ</a></li>
+										<li><a href="contact.html">Contact</a></li>
+										<li><a href="references.html">References</a></li>
+								</ul>
+						</nav>
+				</div>
+	</div>
+
+			  <div class="cont">
+
+
+    <div class="picture1">
+      <h1>1. University of Washington Medical Center/Seattle Cancer Care Alliance</h1>
+      <img src="himages/washington.jpg" width="500">
+      <div class="content">
+        <h2>Location: Seattle, Washington</h2>
+        <h2>Address: 1959 NE Pacific St, Seattle, WA 98195, USA</h2>
+        <h2>Contact: +1 855-557-0555</h2>
+    </div>
+
+    </div>
+    <div class="picture2">
+      <h1>2. Memorial Sloan-Kettering Cancer Center</h1>
+      <img src="himages/memorial.jpg" width="500">
+      <div class="content">
+        <h2>Location: New York, NY, United States</h2>
+        <h2>Address: 1275 York Ave, New York, NY 10065, USA</h2>
+        <h2>Contact: mskcc.org</h2>
+      </div>
+
+    </div>
+    <div class="picture3">
+      <h1>3. Brigham and Women’s Cancer Center.</h1>
+      <img src="himages/brigham.jpg" width="500">
+      <div class="content">
+        <h2>Location: Boston, MA</h2>
+        <h2>Address: 75 Francis St, Boston, MA 02115, USA</h2>
+        <h2>Contact: +1 617-732-6310</h2>
+      </div>
+
+    </div>
+    <div class="picture4">
+      <h1>4. Oslo Comprehensive Cancer Centre</h1>
+      <img src="himages/oslo.jpg" width="500">
+      <div class="content">
+        <h2>Location: Oslo, Norways</h2>
+        <h2>Address: Nydalen, NO-0424 Oslo, Norway</h2>
+        <h2>Contact: 47 915 02770</h2>
+      </div>
+
+    </div>
+
+    <div class="picture5">
+      <h1>5. Genesis Cancer Care</h1>
+      <img src="himages/genesis.jpg" width="500">
+      <div class="content">
+        <h2>Location: Sydney, NSW, Australia</h2>
+        <h2>Address: 24 Salvado Rd, Wembley WA 6014, Australia</h2>
+        <h2>Contact: +61 1300 977 062</h2>
+      </div>
+    </div>
+    </div>
+
+
+
+	<div class="footer">
+			<p>© 2019 || All Rights Reserved By HopeWishers</p>
+	</div>
+
+
+
+</body>
+</html>
